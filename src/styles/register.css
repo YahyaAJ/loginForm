@@ -1,8 +1,13 @@
 .register {
     /* center div */
+    margin-top: 5rem;
     display: flex;
     flex: 1;
-    height: 60vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
+}
+.registerh1{
+    text-align: center;
+    margin-bottom: 1rem;
 }

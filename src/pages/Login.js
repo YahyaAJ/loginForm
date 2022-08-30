@@ -33,9 +33,10 @@ const Login = () => {
 
     return (
         <div>
-            <Header />
+            {/* <Header isNav/> */}
             <div className='login'>
                 <form onSubmit={onSubmit}>
+                <h1>Login</h1>
                     <Input
                         label='email'
                         type='email'

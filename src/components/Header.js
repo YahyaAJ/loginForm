@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom'
 
 import '../styles/header.css'
 
-const Header = ({ isHome }) => {
+const Header = ({ isNav }) => {
     return (
         <header>
             <NavLink to='/'>
-                <h3>React Router Dom v5</h3>
+                <h3>MiniApp</h3>
             </NavLink>
-            {isHome && (
+            {isNav && (
                 <ul>
                     <li>
                         <NavLink to='/login'>Login</NavLink>

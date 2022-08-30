@@ -1,0 +1,50 @@
+.homeContainer {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 50vh;
+  margin: auto;
+  margin-top: 6rem;
+  /* max-width: 1000px; */
+}
+.left__home {
+  /* margin-top: 2rem;
+  position: fixed;
+  margin-left: 28rem; */
+}
+.bg {
+  margin-top: 2rem;
+  width: 50rem;
+  position: fixed;
+  z-index: -999;
+}
+.right__home {
+  margin-right: 7rem;
+}
+.right__login {
+  margin-bottom: 1rem;
+}
+.right__register {
+  text-align: center;
+}
+.navlink{
+  color: black;
+}
+.hide-login{
+  display: none;
+}
+
+@media screen and (max-width: 600px){
+  .left__home,
+  .right__home{
+    display: none;
+  }
+  .homeContainer{
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .hide-login{
+    display: block;
+  }
+}
